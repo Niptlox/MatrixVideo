@@ -68,7 +68,7 @@ class Matrix:
                     if char:
                         pos = x * self.FONT_SIZE, y * self.FONT_SIZE
                         _, red, green, blue = pg.Color(self.image[pos])
-                        color = int(255-(255-red//1.05) // 1.15)
+                        color = int(255 - (255 - red // 1.05) // 1.15)
                         if color:
                             # print(color)
                             # color = 220 if 160 < color < 220 else color
